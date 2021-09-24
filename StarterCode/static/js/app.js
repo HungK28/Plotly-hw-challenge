@@ -30,7 +30,7 @@ function infoMetadata(sample) {
   
 
     var LayoutBubble = {
-      margin: { t: 0 },
+      yaxis: {title: "Sample value"},
       xaxis: { title: "OTU ID" },
       hovermode: "closest",
       };
