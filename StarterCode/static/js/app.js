@@ -57,7 +57,9 @@ function infoMetadata(sample) {
         x:values.slice(0,10).reverse(),
         text:Otulabels.slice(0,10).reverse(),
         type:"bar",
-        orientation:"h"
+        orientation:"h",
+        xaxis: {title: "Sample Value"},
+        yaxis: {title: "OTU ID"}
   
       }
     ];
